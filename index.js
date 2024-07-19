@@ -1,7 +1,6 @@
+#!/usr/bin/env node
 // Import the "commander" package
 import { Command } from "commander";
-
-// Instantiate a new Command object
 const cliTool = new Command();
 
 // Import command modules
@@ -11,7 +10,6 @@ import infoCmd from "./commands/get_info.js";
 import grayscaleCmd from "./commands/gray.js";
 import removeBgCmd from "./commands/removeBackground.js";
 
-// Defined an async function to set up the CLI tool
 async function setupPixTransmute() {
   // Basic details about the npm package
   cliTool

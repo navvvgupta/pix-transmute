@@ -29,7 +29,7 @@ imageInfoCommand
     try {
       // Get metadata of the inputFile using sharp
       const metadata = await sharp(inputFile).metadata();
-
+      console.log(metadata);
       // Organize the metadata and additional information
       const imageInfo = {
         Format: extname(inputFile).slice(1) || "Unknown",
@@ -51,9 +51,9 @@ imageInfoCommand
   // Provide additional help information for the "info" command
   .on("--help", () => {
     logSuccess("\nUsage:");
-    logSuccess("  pic-morph info <inputFile>");
+    logSuccess("  pix-transmute info <inputFile>");
     logSuccess("\nExamples:");
-    logSuccess("  $ pic-morph info input.jpg");
+    logSuccess("  $ pix-transmute info input.jpg");
   });
 
 export default imageInfoCommand; // Export the imageInfoCommand for use in other modules

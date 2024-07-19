@@ -1,4 +1,3 @@
-// Import necessary modules from "commander" and other utility functions
 import { Command } from "commander";
 import sharp from "sharp";
 import { resolve, dirname } from "path";
