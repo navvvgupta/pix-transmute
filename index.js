@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+
 // Import the "commander" package
 import { Command } from "commander";
 const cliTool = new Command();
