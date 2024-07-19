@@ -1,4 +1,4 @@
-# pic-morph
+# pix-transmute
 
 [![npm version](https://img.shields.io/npm/v/pic-morph.svg)](https://www.npmjs.com/package/pic-morph)
 
@@ -6,13 +6,13 @@ An npm package to manipulate images using the command line interface.
 
 ## Installation
 
-To install pic-morph globally, use the following command:
+To install pix-transmute globally, use the following command:
 
-npm install -g pic-morph
+npm install -g pix-transmute
 
 ## Features
 
-pic-morph provides powerful image manipulation capabilities directly from your terminal:
+pix-transmute offers powerful and robust image transformation features right from your terminal:
 
 - Compression: Reduce image file size while maintaining quality.
 - Conversion: Convert images between different formats.
@@ -26,55 +26,47 @@ pic-morph provides powerful image manipulation capabilities directly from your t
 
 Compress an image with optional quality adjustment.
 
-pic-morph compress <input_file> [-q <quality>]
+pix-transmute compress <input_file> [-q <quality>]
 
 - Example:
-  pic-morph compress myimage.jpg
-  pic-morph compress myimage.jpg -q 80
+  pix-transmute compress myimage.jpg
+  pix-transmute compress myimage.jpg -q 80
 
 ### Image Conversion
 
 Convert an image from one format to another.
 
-pic-morph convert <input_file.extension> <output_file.extension>
+pix-transmute convert <input_file.extension> <output_file.extension>
 
 - Example:
-  pic-morph convert myimage.jpg myimage.png
+  pix-transmute convert myimage.jpg myimage.png
 
 ### Remove Background
 
 Remove the background from an image.
 
-pic-morph remove-bg <input_file>
+pix-transmute remove-bg <input_file>
 
 - Example:
-  pic-morph remove-bg myimage.jpg
+  pix-transmute remove-bg myimage.jpg
 
 ### Convert to Grayscale
 
 Convert an image to grayscale.
 
-pic-morph gray <input_file>
+pix-transmute gray <input_file>
 
 - Example:
-  pic-morph gray myimage.jpg
+  pix-transmute gray myimage.jpg
 
 ### Get Image Information
 
 Retrieve detailed information about an image.
 
-pic-morph info <input_file>
+pix-transmute info <input_file>
 
 - Example:
-  pic-morph info myimage.jpg
-
-## Contributing
-
-Contributions are welcome! Please follow our Contribution Guidelines to get started.
-
-## License
-
-This project is licensed under the ISC License - see the LICENSE file for details.
+  pix-transmute info myimage.jpg
 
 ## Contact
 
