@@ -1,7 +1,5 @@
 # pix-transmute
 
-[![npm version](https://img.shields.io/npm/v/pic-morph.svg)](https://www.npmjs.com/package/pic-morph)
-
 An npm package to manipulate images using the command line interface.
 
 ## Installation
